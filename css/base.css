@@ -18,22 +18,29 @@
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+
+    font-family: "Press Start 2P", system-ui;
+    min-height: 95vh;
+    overflow-y: hidden;
+
 }
 
 header {
-    /* position: ;
+    position: ;
     top: 0px;
     left: 50%;
-    transform: translate(-50%); */
+    transform: translate(-50%);
     width: 100%;
-    height: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
     max-width: 80rem;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.675);
     border-radius: 0 0 20px 20px;
     padding-top: 1.5rem;
 
-    nav {
+    /* nav {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         place-items: center;
@@ -54,35 +61,46 @@ header {
         font-family: "Press Start 2P", system-ui;
         text-decoration: none;
         text-align: center;
-    }
+    } */
 }
 
 main {
     width: 100%;
-    max-width: 80rem;
+    max-width: 75rem;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
-
     gap: 5rem;
 
-    padding: 3rem 0;
+    padding: 2rem 0;
     font-family: "Press Start 2P", system-ui;
     position: relative;
 
     h2 {
-        font-size: 160px;
-        margin: 30px;
+        font-size: clamp(3.12rem, 10vw + 0.2rem, 8.12rem);
+        /* font-size: 50px; */
         color: rgb(48, 48, 48);
+        width: 100%;
 
     }
+
+    #kanto,
+    #hoenn {
+        text-align: left;
+    }
+
+    #johto {
+        text-align: right;
+    }
+
 
     .region-container {
         position: relative;
 
         width: 100%;
-        height: 300px;
+        height: 230px;
+        padding: 1rem;
 
         background-color: rgba(183, 125, 0, 0.6);
         border: 7px dashed black;
@@ -90,14 +108,12 @@ main {
 
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: space-around;
 
     }
 
     #johto {
         justify-content: flex-end;
-        align-items: flex-start;
     }
 
     img {
@@ -107,27 +123,27 @@ main {
 
     .charizard {
         right: 50px;
-        top: -86px;
-        max-width: 480px;
-    }
-
-    .feraligatr {
-        left: 50px;
-        top: -60px;
+        top: -90px;
         max-width: 420px;
     }
 
-    .sceptile {
-        right: 50px;
+    .feraligatr {
+        left: 45px;
         top: -60px;
-        max-width: 430px;
+        max-width: 380px;
+    }
+
+    .sceptile {
+        right: 40px;
+        top: -70px;
+        max-width: 380px;
 
     }
 
     a {
         position: absolute;
-        bottom: 20px;
-        right: 200px;
+        bottom: 10px;
+        right: 20px;
 
         background-image: linear-gradient(rgb(6, 42, 225), rgb(0, 102, 170));
         color: white;
@@ -146,6 +162,6 @@ main {
     }
 
     .left {
-        left: 200px;
+        left: 20px;
     }
 }
