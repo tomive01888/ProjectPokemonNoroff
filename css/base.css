@@ -22,7 +22,7 @@
     background-position: center;
 
     -o-transition: background-image 1.2s ease-in-out;
-    -ms-transform: background-image 1.2s ease-in-out;
+    -ms-transition: background-image 1.2s ease-in-out;
     -moz-transition: background-image 1.2s ease-in-out;
     -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out;
