@@ -68,7 +68,8 @@ main {
         text-align: left;
     }
 
-    #johto {
+    #johto,
+    #sinnoh {
         text-align: right;
     }
 
@@ -106,14 +107,23 @@ main {
 
     .feraligatr {
         left: 45px;
-        top: -60px;
+        top: -80px;
         max-width: 380px;
+        transform: scaleX(-1);
     }
 
     .sceptile {
         right: 40px;
         top: -70px;
         max-width: 380px;
+
+    }
+
+    .infernape {
+        left: 45px;
+        top: -80px;
+        max-width: 380px;
+        transform: scaleX(-1);
 
     }
 
