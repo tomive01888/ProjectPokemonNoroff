@@ -19,7 +19,7 @@ whole bunch of other search terms to search by. But mainly a search function, do
 
 //                                                                                              
 //                                                                                              
-/////////////// A different way of display ///////////////
+/////////////// A different way of display ///////////////                          
 A "fun" way to display each pokemon on, not a simple array in grid kind of thing. Something like a carousel or something
 you can challenge yourself with.
 
