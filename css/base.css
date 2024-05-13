@@ -26,6 +26,7 @@
     -moz-transition: background-image 1.2s ease-in-out;
     -webkit-transition: background-image 1.2s ease-in-out;
     transition: background-image 1.2s ease-in-out;
+
     font-family: "Press Start 2P", system-ui;
 
 }
