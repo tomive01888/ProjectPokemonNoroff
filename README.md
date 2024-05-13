@@ -10,21 +10,30 @@ more content.
 Once that is complete, however you wanna display the array of pokemon is kinda up to you, but by going all at once can be
 boring so try think of a way to display them in a fun and interactive way. Something challenging for yourself.
 
+//                                                                                               
+//                                                                                              
 /////////////// Search function ///////////////
 
 Things I want you to try, add a search function using input and have it search by name or id or maybe even type or just a
 whole bunch of other search terms to search by. But mainly a search function, doesn't matter which you wanna go by.
 
-/////////////// A different way of display ///////////////
+//                                                                                              
+//                                                                                              
+/////////////// A different way of display ///////////////                          
 A "fun" way to display each pokemon on, not a simple array in grid kind of thing. Something like a carousel or something
 you can challenge yourself with.
 
+//                                                                                              
+//                                                                                              
 /////////////// Styling the page is all you, your choice, but be creative, take time and study if needed! ///////////////
 
 Decoration of page is entirely up to you. BUT as a way to show your page, I want you to add something like a signature of
 some kind in the footer, something that shows that it is made by you!
 
+//                                                                                              
+//                                                                                              
 /////////////// Who does what? ///////////////
+
 Generation I:
 Who will work on generation 1: _ Emily _
 
@@ -35,8 +44,10 @@ Generation III:
 Who will take on generation 3: _ Noor _
 
 Generation IV:
-Who will take on generation 3: _ Tom _
+Who will take on generation 4: _ Tom _
 
+//                                                                                              
+//                                                                                              
 /////////////// Extra task ///////////////
 
 As a fun thing to add, I would love it if you manage to add something like a sprite of yourself (you can find something on the
@@ -56,6 +67,8 @@ You can imagine yourself the elite four champion of that region. I don't expect 
 Where to display this: Either on a different page, linked from your region OR at the very bottom of your page.
 As a way to show you and your favorite pokemon :) Along with the signature.
 
+//                                                                                              
+//                                                                                              
 /////////////// Some side info of the file setup: ///////////////
 
 Each generation has their own folder, gen-i, gen-ii and gen-iii. Each again has their own respective folder in assets which you
